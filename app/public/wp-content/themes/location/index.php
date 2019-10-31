@@ -7,6 +7,11 @@
 
         <div class="site container">
             <div id="content" class="site-content">
+                <header class="site-header">
+                    <h1 class="site-title">
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo ('name' ); ?></a>
+                    </h1>
+                </header>
                 <main class="site-main">
                     <?php
                         if(have_posts()) {
@@ -39,7 +44,10 @@
                 </main>
             </div>
         </div>
-        <footer>
+        <aside>
+            <?php dynamic_sidebar( 'sidebar' ); ?>
+        </aside>
+        <footer class="site-footer">
           <p>Made pretty by the Location Theme</p>  
         </footer>
         <?php wp_footer(); ?>   
