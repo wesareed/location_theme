@@ -1,0 +1,8 @@
+[30-Oct-2019 22:05:10 UTC] PHP Parse error:  syntax error, unexpected 'me' (T_STRING), expecting ',' or ';' in C:\Users\wes\Local Sites\location-theme\app\public\wp-content\themes\location\index.php on line 2
+[30-Oct-2019 22:09:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in C:\Users\wes\Local Sites\location-theme\app\public\wp-content\themes\location\index.php:7
+Stack trace:
+#0 C:\Users\wes\Local Sites\location-theme\app\public\wp-includes\template-loader.php(78): include()
+#1 C:\Users\wes\Local Sites\location-theme\app\public\wp-blog-header.php(19): require_once('C:\\Users\\wes\\Lo...')
+#2 C:\Users\wes\Local Sites\location-theme\app\public\index.php(17): require('C:\\Users\\wes\\Lo...')
+#3 {main}
+  thrown in C:\Users\wes\Local Sites\location-theme\app\public\wp-content\themes\location\index.php on line 7
